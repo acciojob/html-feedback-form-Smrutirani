@@ -3,15 +3,23 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+<!-- 	<link rel="stylesheet" href="styles.css"> -->
+	<style>
+		table{
+			border:1px solid black;
+	        border-collapse: collapse;
+			width:100%;
+            }
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<h1>Feedback Form</h1>
-	<form>
+<caption>Feedback Form</caption>
+	<table>
+<!-- 		<thead> -->
 	<tr>
 		<th>Element</th>
 		<th>ID</th>
@@ -19,13 +27,15 @@
 		<th>Attributes</th>
 		<th>Label Required</th>
 	</tr>
+<!-- 		</thead> -->
+<!-- 		<tbody> -->
 	<tr>
 		<td>Name</td>
 		<td>name</td>
 		<td>Text</td>
 		<td>minlength="3", maxlength="50", required</td>
 		<td>Yes</td>
-	</tr>
+	</tr>			
 	<tr>
 		<td>Portfolio</td>
 		<td>portfolio</td>
@@ -47,7 +57,8 @@
 		<td>min="1", max="100"</td>
 		<td>Yes</td>
 	</tr>
-	</form>
+<!-- 			</tbody> -->
+	</table>
 </body>
 
 </html>
