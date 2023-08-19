@@ -5,11 +5,17 @@
 <head>
 <!-- 	<link rel="stylesheet" href="styles.css"> -->
 	<style>
-		table{
-			border:1px solid black;
+		table,tr,td,th{
+			border:1px solid gray;
 	        border-collapse: collapse;
-			width:100%;
+			padding: 10px;
+			text-align: left;
+			
             }
+		tr:nth-child(even){
+			background-color: #D6EEEE;
+		}
+		
 	</style>
 </head>
 
@@ -17,9 +23,10 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<caption>Feedback Form</caption>
+	
+<h1>Feedback Form</h1>
 	<table>
-<!-- 		<thead> -->
+		
 	<tr>
 		<th>Element</th>
 		<th>ID</th>
@@ -27,8 +34,7 @@
 		<th>Attributes</th>
 		<th>Label Required</th>
 	</tr>
-<!-- 		</thead> -->
-<!-- 		<tbody> -->
+				
 	<tr>
 		<td>Name</td>
 		<td>name</td>
@@ -57,7 +63,7 @@
 		<td>min="1", max="100"</td>
 		<td>Yes</td>
 	</tr>
-<!-- 			</tbody> -->
+			
 	</table>
 </body>
 
